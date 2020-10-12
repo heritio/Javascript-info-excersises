@@ -89,3 +89,59 @@ let calculator = {
 calculator.read();
 
 */
+/*
+let obj = {};
+
+function A() {
+    return obj;
+}
+
+function B() {
+    return obj;
+}
+
+console.log(new A() == new B());
+*/
+
+/*This is a calculator constructor wiht 3 methods
+function Calculator() {
+
+    this.read = function () {
+        this.val1 = +prompt("val1", 0);
+        this.val2 = +prompt("val2", 0);
+    }
+    this.sum = function () {
+        return this.val1 + this.val2;
+    }
+
+    this.mul = function () {
+        return this.val1 * this.val2;
+    }
+
+}
+
+let calcObj = new Calculator();
+
+console.log(calcObj);
+console.log(calcObj.read());
+*/
+
+/*
+function Accumulator(startingValue) {
+
+    this.value = startingValue;
+
+    this.read = function () {
+        this.value += +prompt("number");
+    }
+
+}
+
+let accumulator = new Accumulator(1);
+
+accumulator.read();
+accumulator.read();
+
+console.log(accumulator.value);
+
+*/
