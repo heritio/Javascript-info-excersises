@@ -145,3 +145,40 @@ accumulator.read();
 console.log(accumulator.value);
 
 */
+
+/*
+function sumNums() {
+    let num1 = +prompt("Enter num 1");
+    let num2 = +prompt("Enter num 2");
+
+    return num1 + num2;
+
+}
+
+console.log(sumNums());
+*/
+
+
+/*Promps until you give it a number
+function readNumber() {
+    let num;
+
+    do {
+        num = prompt("Enter a number please?", 0);
+    } while (!isFinite(num));
+
+    if (num === null || num === '') return null;
+
+    return +num;
+}
+console.log(readNumber());
+*/
+
+/*
+function random(min, max) {
+    return Math.floor(Math.random() * (max - 2)) + min;
+}
+
+console.log(random(2, 5));
+
+*/
